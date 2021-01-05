@@ -10,9 +10,22 @@
     height: 100vmin;
 }
 
+.AlturaPagonaInical{
+    height: 32%;
+}
+
 .sombraCuerpo{
     box-shadow: 0px 6px 5px 5px rgba(0,0,0,0.23);
 }
+
+
+
+/*PAGINA INICIAL CUADRO CENTRAS*/
+.cuadroCentral{
+    background-color: #fff;
+    color: #14804E;
+}
+/*PAGINA INICIAL CUADRO CENTRAS*/
 
 /* Altura de las fotos en vmax y vmin */
 /*Formato SVG(O png a las malas) Para logos*/
