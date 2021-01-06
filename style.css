@@ -5,6 +5,11 @@
 .ColorFondo{
     background-color: rgb(225,205,152);
 }
+
+.ColorFondoSec{
+    background-color: #71A68E;
+    height: 100%;
+}
 .fotoFondo{
     background-image: url(CactusPortada.webp);
     height: 100vmin;

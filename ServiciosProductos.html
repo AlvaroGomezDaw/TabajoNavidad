@@ -8,6 +8,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         
         <!-- Links & Script -->
@@ -42,8 +43,8 @@
                               Servicios
                             </a>
                             <ul class="dropdown-menu dropdown-menu" aria-labelledby="Services">
-                              <li><a class="dropdown-item" href="HistoriaPagina.html#Historia">Servicios</a></li>
-                              <li><a class="dropdown-item" href="HistoriaPagina.html#comienzo">Productos</a></li>
+                              <li><a class="dropdown-item" href="ServiciosProductos.html">Servicios</a></li>
+                              <li><a class="dropdown-item" data-toggle="tab" href="#menu2">Productos</a></li>
                             </ul>
                           </li>
                           <a class="nav-link" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -57,29 +58,106 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ColorFondoSec pb-4">
         <div class="row">
             <div class="col-12">
                 <!--Columna principal-->
-                <ul class="nav nav-tabs bg-success"id ="AniFotos"><!--Inicio fotos de Animales--><!--Inicio elegir seccion-->
+                <ul class="nav nav-tabs bg-success"><!--Inicio fotos de Animales--><!--Inicio elegir seccion-->
 
                     <li class="nav-item">
-                      <a class="nav-link text-dark active" data-toggle="tab" href="#menu1">Servicios <i class="fas fa-dog"></i></a>
+                      <a class="nav-link text-dark" data-toggle="tab" href="#menu1">Servicios </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-dark" data-toggle="tab" href="#menu2">Productos <i class="fas fa-cat"></i> </a>
+                      <a class="nav-link text-dark" data-toggle="tab" href="#menu2">Productos  </a>
                     </li>
                   </ul><!--Final Elegir el animal-->
     
                   <div class="tab-content"> <!--Inicio Carrousel animales-->
 
                     <div class="tab-pane container active" id="menu1"><!--Seccion Servicios-->
-                       <span>1</span>
+                       
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="pt-5 pb-4 h3">Servicios que presta CACTUS PARAISO</p>
+
+                                <i class="fas fs-3 fa-hand-point-right">  Transporte De mercancia entre plantaciones</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Servicios adomiciolio de mercacia</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Venta de productos(Solo en tienda)</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Construccion de invernaderos adaptados</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Asistencia telefonica para dudas y consultas</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Cursos de formación sobre productos agricolas</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Cursos de formación tipos y cuidados de cactus</i><br><br>
+                                <i class="fas fs-3 fa-hand-point-right">  Seguimiento de estado de cultivos con perito experimentado en el sector</i><br><br>
+                            </div>
+                        </div>
+
+
+
+
+
                     </div><!--Final Seccion Servicios-->
 
                     <div class="tab-pane container fade" id="menu2"><!--Seccion Productos-->
                         
-                            <span>2</span>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="pt-5 pb-4 h3">Productos de CACTUS PARAISO</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-12 mt-sm-5 mt-md-1"> <!--Plantas-->
+                                    <p class="h4 text-center ">CACTUS</p>
+                                    <div id="Mover" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="Cactus3.webp" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="Cactus2.webp" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="Cactus1.webp" alt="Third slide">
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#Mover" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Anterios</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#Mover" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Siguiente</span>
+                                        </a>
+                                      </div>
+
+                                </div><!--Final de plantas-->
+                                
+                                <div class="col-lg-6 col-sm-12"> <!--Plantas-->
+                                    <p class="h4 text-center p-sm-4 p-md-4 p-lg-1">PRODUCTOS</p>
+                                    <div id="MoverProductos" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img class="d-block w-100" src="herramienta1.webp" alt="First slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="herramienta2.webp" alt="Second slide">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img class="d-block w-100" src="herramienta3.webp" alt="Third slide">
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#MoverProductos" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Anterios</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#MoverProductos" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Siguiente</span>
+                                        </a>
+                                      </div>
+
+                                </div><!--Final de plantas-->
+
+                            </div>
                         
                     </div><!--Final Seccion Productos-->
                     
